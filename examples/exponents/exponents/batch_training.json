@@ -1,0 +1,188 @@
+{
+  "training_set1": [
+    {
+      "agent_name": "Control_Stu_01266dfb27cc2e1a087884753dbe4f67",
+      "agent_type": "ModularAgent",
+      "stay_active": true,
+      "dont_save": true,
+      "no_ops_parse": true,
+      "args": {
+        "search_depth": 1,
+        "when_learner": "decisiontree",
+        "where_learner": "MostSpecific",
+        "planner": "fo_planner"
+      },
+      "feature_set": [
+        "equals"
+      ],
+      "function_set": [
+        "add",
+        "subtract",
+        "multiply",
+        "divide",
+        "exp",
+	"common_base",
+	"find_exp"
+      ],
+      "problem_set": [
+        {
+          "set_params": {
+            "HTML": "./ExponentsOperation.html",
+            "examples_only": false
+          }
+        },
+
+        {
+          "question_file": "./MassProduction/MS9.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 6.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 7.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS8.brd"
+        },
+        {
+          "question_file": "./MassProduction/MD1.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 5.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 4.brd"
+        },
+        {
+          "question_file": "./MassProduction/MD2.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 1.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 3.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 2.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS3.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS2.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS1.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS5.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS4.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 9.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS6.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS10.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS7.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 8.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 5.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 10.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS11.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS10.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 11.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 4.brd"
+        },
+        {
+          "question_file": "./MassProduction/DD2.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 6.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS9.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS12.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 12.brd"
+        },
+        {
+          "question_file": "./MassProduction/DS8.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 7.brd"
+        },
+        {
+          "question_file": "./MassProduction/DD1.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 3.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 2.brd"
+        },
+        {
+          "question_file": "./MassProduction/A 1.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 12.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS1.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS3.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 10.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 11.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS2.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS6.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 9.brd"
+        },
+        {
+          "question_file": "./MassProduction/S 8.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS7.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS5.brd"
+        },
+        {
+          "question_file": "./MassProduction/MS4.brd"
+        }
+      ]
+    }
+  ]
+}

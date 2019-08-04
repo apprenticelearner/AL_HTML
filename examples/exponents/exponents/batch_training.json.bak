@@ -1,0 +1,337 @@
+{
+  "training_set1": [
+    {
+      "agent_name": "Control_Stu_01266dfb27cc2e1a087884753dbe4f67",
+      "agent_type": "ModularAgent",
+      "stay_active": true,
+      "dont_save": true,
+      "no_ops_parse": true,
+      "args": {
+        "search_depth": 1,
+        "when_learner": "decisiontree",
+        "where_learner": "MostSpecific",
+        "planner": "fo_planner"
+      },
+      "feature_set": [
+        "equals"
+      ],
+      "function_set": [
+        "add",
+        "subtract",
+        "multiply",
+        "divide",
+        "exp",
+        "common_base",
+        "find_exp"
+      ],
+      "problem_set": [
+        {
+          "set_params": {
+            "HTML": "./ExponentsOperation.html",
+            "examples_only": false
+          }
+        },
+        {
+          "question_file": "/MassProduction/MS9.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 6.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 7.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS8.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MD1.brd",
+          "kc_list": [
+            "MD"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 5.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 4.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MD2.brd",
+          "kc_list": [
+            "MD"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 1.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 3.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 2.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS3.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS2.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS1.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS5.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS4.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 9.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS6.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS10.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS7.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 8.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 5.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 10.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS11.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS10.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 11.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 4.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DD2.brd",
+          "kc_list": [
+            "DD"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 6.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS9.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS12.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 12.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DS8.brd",
+          "kc_list": [
+            "DS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 7.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/DD1.brd",
+          "kc_list": [
+            "DD"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 3.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 2.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/A 1.brd",
+          "kc_list": [
+            "A "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 12.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS1.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS3.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 10.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 11.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS2.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS6.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 9.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/S 8.brd",
+          "kc_list": [
+            "S "
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS7.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS5.brd",
+          "kc_list": [
+            "MS"
+          ]
+        },
+        {
+          "question_file": "/MassProduction/MS4.brd",
+          "kc_list": [
+            "MS"
+          ]
+        }
+      ]
+    }
+  ]
+}
